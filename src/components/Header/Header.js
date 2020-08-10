@@ -68,7 +68,7 @@ function Header() {
                 <Link className="dropdown-item" to="/admin-orders">
                   Manage Orders
                 </Link>
-                <Link className="dropdown-item" to="/admin-products">
+                <Link className="dropdown-items" to="/admin-products">
                   Manage Products
                 </Link>
                 <Link className="dropdown-item" to="" onClick={logout}>
