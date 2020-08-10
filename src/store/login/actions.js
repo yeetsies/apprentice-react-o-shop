@@ -15,7 +15,7 @@ function login(username, password) {
       (user) => {
         console.log(user);
         dispatch(success(user));
-        history.push('/home');
+        history.push('/');
       },
       (error) => {
         console.log(error);
